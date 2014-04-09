@@ -33,6 +33,7 @@
 	<string name="str_duplicatat">MERCI DE PATIENTEZ VOTRE DUPLICATAT SERA BIENTOT IMPRIME !</string>
 	<string name="str_parametres">ENTREZ VOS PARAMETRAGES</string>
 	<string name="str_remboursement">MERCI DE PATIENTEZ LA TRANSACTION EST EN COURS</string>
+	<string name="str_apropos">PRESENTATION DE FERLO ET DE GIM-UEMOA</string>
     
     <string name="ouverture">Ouverture</string>
     <string name="fermeture">Fermeture</string>

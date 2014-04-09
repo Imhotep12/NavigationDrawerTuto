@@ -32,9 +32,9 @@ public class MainActivity extends Activity  {
 		setContentView(R.layout.activity_main);
 		
 		
-      String text[]= {" PARAMETRAGE"," PAIEMENT"," REMBOURSSEMENT"," PARAMETRE"," A PROPOS"};
+      String text[]= {" PARAMETRAGE"," PAIEMENT"," REMBOURSSEMENT"," DUPLICATAT","PARAMETRE"," A PROPOS"};
       int imageId[]={R.drawable.lg_parametrage, R.drawable.lg_paiement, R.drawable.lg_remboursement,
-    		  R.drawable.lg_parametre, R.drawable.lg_apropos};
+    		  R.drawable.lg_duplicatat, R.drawable.lg_parametre, R.drawable.lg_apropos};
 		drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
 
 		myTextView = (TextView) findViewById(R.id.display_drawer_txt);

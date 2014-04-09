@@ -97,20 +97,21 @@ public final class R {
         public static final int btnValider=0x7f050002;
         public static final int btn_amount_txt=0x7f050006;
         public static final int btn_retour_acceuil=0x7f050007;
-        public static final int fermeture=0x7f05000e;
-        public static final int ouverture=0x7f05000d;
+        public static final int fermeture=0x7f05000f;
+        public static final int ouverture=0x7f05000e;
         public static final int paiement=0x7f050009;
         public static final int str_amount=0x7f050005;
+        public static final int str_apropos=0x7f05000d;
         public static final int str_duplicatat=0x7f05000a;
-        public static final int str_img=0x7f050013;
+        public static final int str_img=0x7f050014;
         public static final int str_num_carte=0x7f050008;
-        public static final int str_parametrage=0x7f050011;
+        public static final int str_parametrage=0x7f050012;
         public static final int str_parametres=0x7f05000b;
         public static final int str_remboursement=0x7f05000c;
         public static final int text_montant=0x7f050003;
-        public static final int text_title=0x7f050012;
-        public static final int titre=0x7f05000f;
-        public static final int titre_apres_ouverture=0x7f050010;
+        public static final int text_title=0x7f050013;
+        public static final int titre=0x7f050010;
+        public static final int titre_apres_ouverture=0x7f050011;
     }
     public static final class style {
         /** 

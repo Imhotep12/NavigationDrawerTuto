@@ -60,10 +60,10 @@ public class paiement_activity extends Activity {
 		
 		@Override
 		    public void onClick (View v) {
-			
-			finish ();  
+			  
 			Intent intent = new Intent (paiement_activity.this, MainActivity.class);
 		    startActivityForResult(intent, 0);
+		    finish ();
 		}
 		
 	}

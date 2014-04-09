@@ -12,7 +12,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="60dp"
-     
+        android:text="@string/str_apropos"
         android:textColor="#EFFBF5"
         android:textSize="20dp" />
 
