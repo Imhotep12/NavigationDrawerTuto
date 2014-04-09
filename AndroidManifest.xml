@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tutos.android.navigationdrawertuto"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ferlo2"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.tutos.android.navigationdrawertuto.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity 
+                 android:name="paiement_activity"
+                 android:label="@string/app_name" >
+            
+        </activity>
+        
+        <activity 
+                 android:name="num_paiemment_activity"
+                 android:label="@string/app_name" >
+            
+        </activity>
+        
+        <activity 
+                 android:name="parametrage_activity"
+                 android:label="@string/app_name" >
+            
+        </activity>
+        <activity 
+                 android:name="Duplicatat"
+                 android:label="@string/app_name" >
+            
+        </activity>
+        <activity 
+                 android:name="Remboursement_activity"
+                 android:label="@string/app_name" >
+            
+        </activity>
+        <activity 
+                 android:name="Parametres_activity"
+                 android:label="@string/app_name" >
+            
+        </activity>
+        <activity 
+                 android:name="Autres_activity"
+                 android:label="@string/app_name" >
+            
+        </activity>
+        
+    </application>
+
+</manifest>

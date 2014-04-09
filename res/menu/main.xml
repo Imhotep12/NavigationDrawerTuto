@@ -1,0 +1,23 @@
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/text_title"
+        android:showAsAction="always"
+        android:title="@string/text_title"
+        android:checkable="false"/>   
+        
+    <item
+        android:id="@+id/title"
+        android:showAsAction="always"
+        android:checkable="false"/>
+    
+    <item
+        android:id="@+id/logo_gim"
+        android:icon="@drawable/logo_gim"
+        android:showAsAction="always"
+        android:checkable="false"/>
+    
+    
+
+</menu>

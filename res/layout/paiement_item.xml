@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#0080FF"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/txt_view_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/amount_txt_id"
+        android:layout_alignLeft="@+id/amount_txt_id"
+        android:textColor="#EFFBF5"
+        android:layout_marginBottom="46dp"
+        android:textSize="20dp"
+        android:shadowRadius="5"
+        android:text="@string/str_amount" />
+
+    <Button
+        android:id="@+id/btn_retour_acceuil"
+        android:layout_width="90dp"
+        android:layout_height="45dp"
+        android:layout_alignBottom="@+id/btn_amount"
+        android:layout_alignRight="@+id/txt_view_amount"
+        android:layout_alignTop="@+id/btn_amount"
+        android:background="@drawable/button_shape"
+        android:textColor="#0080FF"       
+        android:focusable="true"
+        android:text="@string/btn_retour_acceuil" />
+
+    <Button
+        android:id="@+id/btn_amount"
+        android:layout_width="90dp"
+        android:layout_height="45dp"
+        android:layout_alignLeft="@+id/amount_txt_id"
+        android:layout_below="@+id/txt_view_amount"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/button_shape"
+        android:focusable="true"
+        android:text="@string/btn_amount_txt"
+        android:textColor="#0080FF" />
+
+    <EditText
+        android:id="@+id/amount_txt_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="135dp"
+        android:ems="7"
+        android:hint="@string/amount_hint"
+        android:textSize="30dp"
+        android:inputType="number"
+        android:textColor="#EFFBF5" />
+
+</RelativeLayout>
