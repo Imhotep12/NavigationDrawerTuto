@@ -43,7 +43,7 @@ public class parametrage_activity extends Activity {
 			@Override
 			    public void onClick (View v) {
 				
-				  Intent intent = new Intent (parametrage_activity.this, paiement_activity.class);
+				  Intent intent = new Intent (parametrage_activity.this, MainActivity.class);
 				  startActivityForResult(intent, 0);
 				  finish ();
 			}

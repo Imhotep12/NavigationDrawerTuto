@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_num_carte_layout"
+    android:layout_width="match_parent"
+    android:background="#0080FF"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/txt_view_autres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="@string/str_autres"
+        android:textColor="#EFFBF5"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btn_rechargement"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@+id/btn_consultation_solde"
+        android:layout_alignBottom="@+id/btn_consultation_solde"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="46dp"
+        android:text="RECHARGEMENT"
+        android:background="@drawable/button_shape"
+        android:textColor="#0080FF"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/btn_recharge_credit"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/btn_rechargement"
+        android:layout_below="@+id/btn_rechargement"
+        android:layout_marginTop="30dp"
+        android:text="RECHARGE CREDIT"
+        android:background="@drawable/button_shape"
+        android:textColor="#0080FF"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/btn_paiement_facture"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@+id/btn_recharge_credit"
+        android:layout_alignBottom="@+id/btn_recharge_credit"
+        android:layout_alignLeft="@+id/btn_consultation_solde"
+        android:text="PAYER FACTURES"
+        android:background="@drawable/button_shape"
+        android:textColor="#0080FF"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/btn_consultation_solde"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignRight="@+id/txt_view_autres"
+        android:layout_below="@+id/txt_view_autres"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/button_shape"
+        android:textColor="#0080FF"
+        android:text="CONSULT_SOLDE"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/btn_retour_acceuil"
+        android:layout_width="110dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/btn_recharge_credit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/button_shape"
+        android:focusable="true"
+        android:text="@string/btn_retour_acceuil"
+        android:textColor="#0080FF"
+        android:textSize="10dp" />
+
+</RelativeLayout>

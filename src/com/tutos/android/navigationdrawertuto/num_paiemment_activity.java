@@ -36,9 +36,9 @@ private class retourAcceuil implements OnClickListener{
 		@Override
 		    public void onClick (View v) {
 			
-			  Intent intent = new Intent (num_paiemment_activity.this, paiement_activity.class);
-			  startActivityForResult(intent, 0);
 			  finish();
+			  Intent intent = new Intent (num_paiemment_activity.this, MainActivity.class);
+			  startActivityForResult(intent, 0);
 		}
 		
 	} 
